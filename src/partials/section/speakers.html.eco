@@ -2,6 +2,8 @@
 
 <ul class="speakers-list">
 <% for day of @schedule: %>
+  <% @date = new Date(day) %>
+  <% @date = "#{@date.getDate()} / #{@date.getMonth() + 1}" %>
   <% for speaker in @schedule[day]: %>
     <% if speaker.presentation: %>
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -13,8 +15,10 @@
 
         <h3 class="speech-title">
           <% if speaker.presentation.time: %>
+            <span class='speech-time'><%= @date %></span>
             <span class="speech-time"><%= speaker.presentation.time %></span>
           <% end %>
+            <br><br>
             <span> <%= speaker.presentation.title %></span>
         </h3>
 
