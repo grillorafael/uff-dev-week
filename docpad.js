@@ -146,7 +146,20 @@ module.exports = {
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "15h00"
                 }
-            }/*, {
+            },
+            {
+                name: "Coffe-break",
+                time: "10h30"
+            },
+            {
+                name: "Á confirmar",
+                time: "16h30"
+            },
+            {
+                name: "Á confirmar",
+                time: "17h30"
+            },
+            /*, {
                 name: "Steve Wozniak",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
