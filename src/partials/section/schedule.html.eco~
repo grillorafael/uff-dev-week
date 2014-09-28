@@ -1,4 +1,6 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
 <div id="tabs-container">
     <% @it = 0 %>
@@ -6,7 +8,7 @@
         <% for day of @schedule: %>
             <% @it++ %>
             <% @date = new Date(day) %>
-            <% @date = "#{@date.getDate() + 1} / #{@date.getMonth() + 1}" %>
+            <% @date = "#{@date.getDate()} / #{@date.getMonth() + 1}" %>
             <% if @it == 1:  %>
                 <li class='current'><a href='#tab-<%= @it %>'><%= @date %></a></li>
             <% else:  %>

@@ -13,7 +13,7 @@ module.exports = {
             // If your event is free, just comment this line
             //   price: "$100",
             venue: "Universidade Federal Fluminense",
-            address: "Rua Passo da Pátria 156, Niterói - RJ, Instituto de Computação",
+            address: "Rua Passo da Pátria 156, Niterói - RJ",
             city: "Niterói",
             state: "Rio de Janeiro"
         },
@@ -26,15 +26,15 @@ module.exports = {
         },
 
         // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-        /*forkButton: {
+        forkButton: {
             repository: "https://github.com/braziljs/conf-boilerplate"
-        },*/
+        },
 
         // Site info
         site: {
             theme: "yellow-swan",
-            url: "http://braziljs.github.io/conf-boilerplate/"//,
-            //googleanalytics: "UA-33656081-1"
+            url: "http://braziljs.github.io/conf-boilerplate/",
+            googleanalytics: "UA-33656081-1"
         },
 
         // Active sections on the website
@@ -56,8 +56,8 @@ module.exports = {
             location: "Local",
             speakers: "Oradores",
             schedule: "Agenda",
-            sponsors: "Realização",
-            partners: "Apoio",
+            sponsors: "Patrocinadores",
+            partners: "Parcerias",
             contact: "Contato"
         },
 
@@ -65,7 +65,7 @@ module.exports = {
         schedule: {
             '2014-10-13': [
             {
-                name: "À confirmar",
+                name: "Á confirmar",
                 time: "9h00"
             },
             {
@@ -152,34 +152,12 @@ module.exports = {
                 time: "10h30"
             },
             {
-                name: "Henrique Bastos",
-                photo: "http://0.gravatar.com/avatar/d47e5a6a94e793ad1a1c315d6ab63877",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "UAM",
-                link: {
-                     href: "https://twitter.com/henriquebastos    ",
-                     text: "@henriquebastos"
-                },
-                presentation: {
-                    title: "Agilidade e Empreendedorismo: como isso pode revolucionar a sua carreira",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                    time: "16h30"
-                }
+                name: "Á confirmar",
+                time: "16h30"
             },
             {
-                name: "Marcelo Jachelli",
-                photo: "http://dacc.ic.uff.br/semanacademica/wp-content/themes/shaper_helix_ii/images/marcelojachelli.jpg",
-                bio: "Analista de sistemas formado pela PUC-Rio com MBA em Gestão de projetos pelo IBMEC. Possui mais de 10 anos de experiência em gerenciamento de projetos de TI com atuação em empresas de diferentes segmentos como: Petrobras, Oi, Citibank, Bradesco Seguros, Aracruz, entre outras. Atualmente é Gerente de projetos do ADDLabs (laboratório de Documentação Ativa e Design Inteligente do Instituto de Computação da Universidade Federal Fluminense – Especializado em IHC e inteligência artificial).",
-                company: "ADDLABS",
-                /*link: {
-                    href: "https://twitter.com/henriquebastos    ",
-                    text: "@henriquebastos"
-                },*/
-                presentation: {
-                    title: "Gerência de Projetos",
-                    description: "Serão apresentados os principais conceitos do gerenciamento de projetos, as áreas de conhecimento, estratégias de gerenciamento, características da carreira, habilidades necessárias e desafios do profissional de gerenciamento de projetos.",
-                    time: "17h30"
-                }
+                name: "Á confirmar",
+                time: "17h30"
             },
             /*, {
                 name: "Steve Wozniak",
@@ -290,19 +268,8 @@ module.exports = {
                     time: "11h00"
                 }
             },{
-                name: "Marcos Cortês",
-                //photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10629872_749020281828959_738727163159492986_n.jpg?oh=61a913c03aed1622882006294ff36b3a&oe=54C6D659&__gda__=1418868988_cccb1d5bf7056eeaff4a1498c80f7b26",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "Secretaria Municipal de Saúde do Rio de Janeiro",
-                // link: {
-                //     href: "http://twitter.com/littlechuck",
-                //     text: "@littlechuck"
-                // },
-                presentation: {
-                    title: "Angular.JS e Arquitetura Rest",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                    time: "11h45"
-                }
+                name: "Á confirmar",
+                time: "11h45"
             }, {
                 name: "Almoço",
                 time: "12h30"
@@ -362,22 +329,21 @@ module.exports = {
                     description: "",
                     time: "17h30"
                 }
-            }],
-            '2014-10-16': [{
-                name: "André Garzia",
-                photo: "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1779194_10153074804907195_1512928922_n.jpg?oh=798464a3f8710e8b4eeff7f231f86789&oe=54C9744F&__gda__=1423000722_8af195e38f02ac93c5240fb87228352f",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Mozilla Brasil",
+            }],/*'2014-10-15': [{
+                name: "Linus Torvalds",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Linux Foundation",
                 // link: {
                 //     href: "http://twitter.com/linus",
                 //     text: "@linus"
                 // },
                 presentation: {
-                    title: "Firefox OS",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                    time: "9h45"
+                    title: "Digging into a Linux Kernel",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "9h00"
                 }
-            }, /*{
+            }, {
                 name: "Bill Gates",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -391,55 +357,176 @@ module.exports = {
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h45"
                 }
-            }, */{
+            }, {
                 name: "Coffe-break",
                 time: "10h30"
             }, {
-                name: "Cícero Santos",
-                //photo: "themes/yellow-swan/img/speaker.jpg",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "IBM",
+                name: "Chuck Norris",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Delta Command",
                 // link: {
                 //     href: "http://twitter.com/littlechuck",
                 //     text: "@littlechuck"
                 // },
                 presentation: {
-                    title: "Processamento de Linguagem Natural com Deep Learning",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "How to kill a elephant with one finger",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "11h00"
                 }
             }, {
-                name: "Leonardo Alberto Souza",
-                photo: "http://dacc.ic.uff.br/semanacademica/wp-content/themes/shaper_helix_ii/images/leobeto.jpg",
-                bio: "Mais conhecido como Leobetosouza, já abandonou um curso de Ciência da Computação e hoje cursa Sistemas de Informação na UFF. Trabalhou como desenvolvedor front-end por 7 anos e hoje é Desenvolvedor Perl da Estante Virtual. Já palestrou no RioJS, SampaJS e 7Masters. Membro do DojoRio, RioAgile, Rio-PM e um dos administradores da RioJS.",
-                company: "Estante Virtual",
-                /*link: {
+                name: "Steve Jobs",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Apple, Inc.",
+                link: {
                     href: "http://github.com/stevie",
                     text: "@stevie"
-                },*/
+                },
                 presentation: {
-                    title: "PEARL",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Presenting iPad",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "11h45"
                 }
             }, {
                 name: "Almoço",
                 time: "12h30"
             }, {
-                name: "Heraldo Borges",
-                //photo: "themes/yellow-swan/img/speaker.jpg",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "Facebook",
+                name: "Mark Zuckerberg",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Facebook",
                 // link: {
                 //     href: "http://twitter.com/zuck",
                 //     text: "@zuck"
                 // },
                 presentation: {
-                    title: "Scikit: Machine Learning em Python",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Revealing Facebook Secrets",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "14h00"
                 }
-            }, /*{
+            }, {
+                name: "Steve Wozniak",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Apple, Inc.",
+                link: {
+                    href: "http://twitter.com/woz",
+                    text: "@woz"
+                },
+                presentation: {
+                    title: "Why do I prefer Android over iPhone",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "15h00"
+                }
+            }, {
+                name: "Coffee-break",
+                time: "16h00"
+            }, {
+                name: "Mark Zuckerberg",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Facebook",
+                // link: {
+                //     href: "http://twitter.com/zuck",
+                //     text: "@zuck"
+                // },
+                presentation: {
+                    title: "Revealing Facebook Secrets",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "16h30"
+                }
+            },{
+                name: "Mark Zuckerberg",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Facebook",
+                // link: {
+                //     href: "http://twitter.com/zuck",
+                //     text: "@zuck"
+                // },
+                presentation: {
+                    title: "Revealing Facebook Secrets",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "17h30"
+                }
+            }],*/'2014-10-16': [/*{
+                name: "Linus Torvalds",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Linux Foundation",
+                // link: {
+                //     href: "http://twitter.com/linus",
+                //     text: "@linus"
+                // },
+                presentation: {
+                    title: "Digging into a Linux Kernel",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "9h00"
+                }
+            }, {
+                name: "Bill Gates",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Microsoft",
+                link: {
+                    href: "http://github.com/billy95",
+                    text: "@billy95"
+                },
+                presentation: {
+                    title: "Introducing Windows 12",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "9h45"
+                }
+            }, {
+                name: "Coffe-break",
+                time: "10h30"
+            }, {
+                name: "Chuck Norris",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Delta Command",
+                // link: {
+                //     href: "http://twitter.com/littlechuck",
+                //     text: "@littlechuck"
+                // },
+                presentation: {
+                    title: "How to kill a elephant with one finger",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "11h00"
+                }
+            }, {
+                name: "Steve Jobs",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Apple, Inc.",
+                link: {
+                    href: "http://github.com/stevie",
+                    text: "@stevie"
+                },
+                presentation: {
+                    title: "Presenting iPad",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "11h45"
+                }
+            }, {
+                name: "Almoço",
+                time: "12h30"
+            }, {
+                name: "Mark Zuckerberg",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Facebook",
+                // link: {
+                //     href: "http://twitter.com/zuck",
+                //     text: "@zuck"
+                // },
+                presentation: {
+                    title: "Revealing Facebook Secrets",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "14h00"
+                }
+            }, {
                 name: "Steve Wozniak",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -470,22 +557,21 @@ module.exports = {
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "16h30"
                 }
-            },{
-                name: "Todos",
+            }/*,{
+                name: "Mark Zuckerberg",
                 photo: "themes/yellow-swan/img/speaker.jpg",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "Facebook",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Facebook",
                 // link: {
                 //     href: "http://twitter.com/zuck",
                 //     text: "@zuck"
                 // },
                 presentation: {
-                    title: "CompMusc",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Revealing Facebook Secrets",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "17h30"
                 }
-            }],
-            '2014-10-17': [/*{
+            }*/],/*'2014-10-17': [{
                 name: "Linus Torvalds",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -499,55 +585,55 @@ module.exports = {
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h00"
                 }
-            },*/ {
-                name: "Daniel Oliveira",
-                photo: "http://dacc.ic.uff.br/semanacademica/wp-content/themes/shaper_helix_ii/images/daniel.gif",
-                bio: "Daniel de Oliveira é professor do Instituto de Computação da Universidade Federal Fluminense (UFF) desde 2013. Recebeu o grau de Doutor em Ciências pela UFRJ em 2012. Seus interesses de pesquisa incluem bancos de dados, computação em nuvem, gerência de workflows científicos, paralelismo de dados, bioinformática e mineração de dados. Publicou mais de 50 artigos em periódicos indexados e em congressos nacionais e internacionais. É membro da ACM, IEEE e SBC. Vem publicando com frequência em eventos de prestígio internacional de computação em nuvem como o IEEE Cloud e o IEEE e-Science, além de ter recebido o prêmio de melhor artigo do 2nd International Workshop on Cloud Computing and Scientific Applications (CCSA) realizado em conjunto com o IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid 2012).",
-                company: "IC - UFF",
+            }, {
+                name: "Bill Gates",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Microsoft",
                 link: {
                     href: "http://github.com/billy95",
                     text: "@billy95"
                 },
                 presentation: {
-                    title: "À Confirmar",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Introducing Windows 12",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h45"
                 }
             }, {
                 name: "Coffe-break",
                 time: "10h30"
             }, {
-                name: "Débora Muchaluat",
-                //photo: "themes/yellow-swan/img/speaker.jpg",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "MidiaCom",
+                name: "Chuck Norris",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Delta Command",
                 // link: {
                 //     href: "http://twitter.com/littlechuck",
                 //     text: "@littlechuck"
                 // },
                 presentation: {
-                    title: "TV Digital",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "How to kill a elephant with one finger",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "11h00"
                 }
             }, {
-                name: "Luis Enrique",
-                //photo: "themes/yellow-swan/img/speaker.jpg",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "InfoMarka",
-                //link: {
-                    //href: "http://github.com/stevie",
-                    //text: "@stevie"
-                //},
+                name: "Steve Jobs",
+                photo: "themes/yellow-swan/img/speaker.jpg",
+                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Apple, Inc.",
+                link: {
+                    href: "http://github.com/stevie",
+                    text: "@stevie"
+                },
                 presentation: {
-                    title: "Synfig - Novos Recursos para animação 2D",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Presenting iPad",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "11h45"
                 }
             }, {
                 name: "Almoço",
                 time: "12h30"
-            }/*, {
+            }, {
                 name: "Mark Zuckerberg",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -606,69 +692,21 @@ module.exports = {
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "17h30"
                 }
-            }*/]
+            }]*/
         },
 
         // List of Sponsors
-        sponsors: [
-            {
-                name: "DACC",
-                logo: "http://dacc.ic.uff.br/semanacademica/wp-content/uploads/2013/10/logodacc.jpg",
-                url: "https://www.facebook.com/daccuff"
-            },
-            {
-                name: "Instituto de Computação",
-                logo: "http://dacc.ic.uff.br/semanacademica/wp-content/uploads/2013/10/logoic.jpg",
-                url: "http://www.ic.uff.br/index.php/pt/"
-            },
-            {
-                name: "Universidade Federal Fluminense",
-                logo: "http://dacc.ic.uff.br/semanacademica/wp-content/uploads/2013/10/logouff.jpg",
-                url: "http://www.uff.br/"
-            }
-        ],
+        sponsors: [{
+            name: "DACC",
+            logo: "themes/yellow-swan/img/sponsor.png",
+            url: "http://eventick.com.br"
+        }],
 
         // List of Partners
         partners: [{
-            name: "CHOICE",
-            logo: "http://dacc.ic.uff.br/semanacademica/wp-content/uploads/2013/10/choice.jpg",
-            url: "http://www.choice.org.br/"
-        },{
-            name: "SEO Master",
-            logo: "http://www.seomaster.com.br/wp-content/themes/seomaster/images/logo-seomaster.png",
-            url: "http://www.seomaster.com.br/"
-        },{
-            name: "DZaine",
-            logo: "http://www.dzaine.net/img/logo-dzaine.png",
-            url: "http://www.dzaine.net/"
-        },{
-            name: "Cortex Intelligence",
-            logo: "http://www.cortex-intelligence.com/images/logo.png",
-            url: "http://www.cortex-intelligence.com/"
-        },{
-            name: "NVidia",
-            logo: "http://www.nvidia.com.br/content/includes/redesign2010/images/redesign10/nvidia_logo.png",
-            url: "http://www.nvidia.com.br/page/home.html"
-        },{
-            name: "Mozilla Brasil",
-            logo: "http://www.mozillabrasil.org.br/img/logo-mozilla-lt.png",
-            url: "http://www.mozillabrasil.org.br/"
-        },{
-            name: "IBM Brasil",
-            logo: "http://1.www.s81c.com/i/v17/t/ibm-logo.png",
-            url: "http://www.ibm.com/br/pt/"
-        },{
-            name: "Estante Virtual",
-            logo: "http://static2.estantevirtual.com.br/imagens/logo_estante.png",
-            url: "http://www.estantevirtual.com.br/"
-        },{
-            name: "Laboratório MídiaCom",
-            logo: "http://www.gta.ufrj.br/novo_gta/images/Logos/midiacom.jpg",
-            url: "http://www.midiacom.uff.br/"
-        },{
-            name: "InfoMarka",
-            logo: "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10632668_684358531640946_774119611247499785_n.jpg?oh=8dc7654ff968bd345b1c1a771908743d&oe=54BCAE78&__gda__=1422447941_d41cf14a5c65273a8486e6e53dbb9c25",
-            url: "https://www.facebook.com/infomarkauff"
+            name: "IC",
+            logo: "themes/yellow-swan/img/partner.png",
+            url: "http://braziljs.org"
         }],
 
         // Theme path
