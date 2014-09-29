@@ -1,4 +1,4 @@
-module.exports = {
+﻿module.exports = {
 
     prompts: false,
 
@@ -153,16 +153,16 @@ module.exports = {
             },
             {
                 name: "Henrique Bastos",
-                photo: "http://0.gravatar.com/avatar/d47e5a6a94e793ad1a1c315d6ab63877",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "UAM",
+                photo: "http://en.gravatar.com/userimage/685245/2facffb27028a9a47863ce119dbbd1f1.png?size=200 ",
+                bio: "Henrique Bastos é inquieto e eupreendedor. Aplica tecnologia em software para iniciativas em rede que promovem autonomia de pessoas comuns. Além disso atua constantemente nas comunidades de programadores organizando, ministrando palestras, cursos e evangelizando o empoderamento através do desenvolvimento software, no Brasil e no exterior. ",
+                company: "Welcome To The Django",
                 link: {
-                     href: "https://twitter.com/henriquebastos    ",
+                     href: "https://twitter.com/henriquebastos",
                      text: "@henriquebastos"
                 },
                 presentation: {
                     title: "Agilidade e Empreendedorismo: como isso pode revolucionar a sua carreira",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    description: "O foco dessa palestra é você, aluno! Muito já se fala de agilidade, empreendedorismo e carreira. Mas o que isso tem haver com você? Como você pode aprender na prática estes assuntos e viver a vida nos seus próprios termos? Venha bater um papo reto e informal, e não esqueça de trazer as suas dúvidas e questões polêmicas.",
                     time: "16h30"
                 }
             },
@@ -293,7 +293,7 @@ module.exports = {
                 name: "Marcos Cortês",
                 //photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10629872_749020281828959_738727163159492986_n.jpg?oh=61a913c03aed1622882006294ff36b3a&oe=54C6D659&__gda__=1418868988_cccb1d5bf7056eeaff4a1498c80f7b26",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "Secretaria Municipal de Saúde do Rio de Janeiro",
+                company: "STI",
                 // link: {
                 //     href: "http://twitter.com/littlechuck",
                 //     text: "@littlechuck"
@@ -364,6 +364,20 @@ module.exports = {
                 }
             }],
             '2014-10-16': [{
+                name: "Raphael Menezes",
+                photo: "https://scontent-a-lga.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10534518_10152144893827511_8821135898542613309_n.jpg",
+                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "Petrobrás",
+                // link: {
+                //     href: "http://twitter.com/linus",
+                //     text: "@linus"
+                // },
+                presentation: {
+                    title: "Gestão de perfomance de aplicações java em ambiente de produção e experiência do usuário",
+                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    time: "9h00"
+                }
+            },{
                 name: "André Garzia",
                 photo: "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1779194_10153074804907195_1512928922_n.jpg?oh=798464a3f8710e8b4eeff7f231f86789&oe=54C9744F&__gda__=1423000722_8af195e38f02ac93c5240fb87228352f",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -427,9 +441,9 @@ module.exports = {
                 time: "12h30"
             }, {
                 name: "Heraldo Borges",
-                //photo: "themes/yellow-swan/img/speaker.jpg",
+                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c32.0.200.200/p200x200/1450310_10202142825552740_85057262_n.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "Facebook",
+                company: "STI",
                 // link: {
                 //     href: "http://twitter.com/zuck",
                 //     text: "@zuck"
@@ -439,21 +453,21 @@ module.exports = {
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "14h00"
                 }
-            }, /*{
-                name: "Steve Wozniak",
-                photo: "themes/yellow-swan/img/speaker.jpg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Apple, Inc.",
-                link: {
+            }, {
+                name: "Simone Martins",
+                photo: "http://www.ic.uff.br/images/departamento/docentes/IC-Docentes-Simone.png",
+                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "GE",
+                /*link: {
                     href: "http://twitter.com/woz",
                     text: "@woz"
-                },
+                },*/
                 presentation: {
-                    title: "Why do I prefer Android over iPhone",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Pesquisa Operacional",
+                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "15h00"
                 }
-            }, {
+            }, /*{
                 name: "Coffee-break",
                 time: "16h00"
             }, */{
@@ -534,7 +548,7 @@ module.exports = {
                 name: "Luis Enrique",
                 //photo: "themes/yellow-swan/img/speaker.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "InfoMarka",
+                //company: "InfoMarka",
                 //link: {
                     //href: "http://github.com/stevie",
                     //text: "@stevie"
@@ -547,21 +561,21 @@ module.exports = {
             }, {
                 name: "Almoço",
                 time: "12h30"
-            }/*, {
-                name: "Mark Zuckerberg",
-                photo: "themes/yellow-swan/img/speaker.jpg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Facebook",
+            }, {
+                name: "Hugo Arraes Henley",
+                photo: "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/249549_3747423573320_2041088151_n.jpg",
+                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "STI",
                 // link: {
                 //     href: "http://twitter.com/zuck",
                 //     text: "@zuck"
                 // },
                 presentation: {
-                    title: "Revealing Facebook Secrets",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "À Confirmar",
+                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "14h00"
                 }
-            }, {
+            }, /*{
                 name: "Steve Wozniak",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -634,6 +648,10 @@ module.exports = {
             logo: "http://dacc.ic.uff.br/semanacademica/wp-content/uploads/2013/10/choice.jpg",
             url: "http://www.choice.org.br/"
         },{
+            name: "Welcome To The Django",
+            logo: "https://lh5.ggpht.com/23fZS5mCk0KnCsW24ijqO-rAy97EOOjdumeqsqXTWDY6K2V5-HD4kdYJTHa3QXHKsdFBLbmOTzkH0y7PsYMX=s0",
+            url: "http://welcometothedjango.com.br/novidades/ "
+        },{
             name: "SEO Master",
             logo: "http://www.seomaster.com.br/wp-content/themes/seomaster/images/logo-seomaster.png",
             url: "http://www.seomaster.com.br/"
@@ -665,10 +683,6 @@ module.exports = {
             name: "Laboratório MídiaCom",
             logo: "http://www.gta.ufrj.br/novo_gta/images/Logos/midiacom.jpg",
             url: "http://www.midiacom.uff.br/"
-        },{
-            name: "InfoMarka",
-            logo: "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10632668_684358531640946_774119611247499785_n.jpg?oh=8dc7654ff968bd345b1c1a771908743d&oe=54BCAE78&__gda__=1422447941_d41cf14a5c65273a8486e6e53dbb9c25",
-            url: "https://www.facebook.com/infomarkauff"
         }],
 
         // Theme path

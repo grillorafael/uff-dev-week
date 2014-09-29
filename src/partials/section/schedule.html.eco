@@ -1,4 +1,4 @@
-<h2 class="section-title"><%= @labels['schedule'] %></h2>
+﻿<h2 class="section-title"><%= @labels['schedule'] %></h2>
 
 <div id="tabs-container">
     <% @it = 0 %>
