@@ -1,4 +1,4 @@
-<!-- NAVIGATION -->
+﻿<!-- NAVIGATION -->
 <nav id="nav">
   <ul class="wrapper">
     <% for section in @sections : %>
