@@ -33,7 +33,7 @@
         // Site info
         site: {
             theme: "yellow-swan",
-            url: "http://braziljs.github.io/conf-boilerplate/"//,
+            url: "http://dacc.ic.uff.br/devweek/"//,
             //googleanalytics: "UA-33656081-1"
         },
 
@@ -82,10 +82,12 @@
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h45"
                 }
-            }, {
-                name: "Coffe-break",
-                time: "10h30"
-            }, {
+            }, 
+	    //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //}, 
+            {
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -147,10 +149,10 @@
                     time: "15h00"
                 }
             },
-            {
-                name: "Coffe-break",
-                time: "10h30"
-            },
+            //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //},
             {
                 name: "Henrique Bastos",
                 photo: "http://en.gravatar.com/userimage/685245/2facffb27028a9a47863ce119dbbd1f1.png?size=200 ",
@@ -272,10 +274,11 @@
                     time: "9h45"
                 }
             },
+            //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //}, 
             {
-                name: "Coffe-break",
-                time: "10h30"
-            }, {
                 name: "Pedro Polisenso",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10629872_749020281828959_738727163159492986_n.jpg?oh=61a913c03aed1622882006294ff36b3a&oe=54C6D659&__gda__=1418868988_cccb1d5bf7056eeaff4a1498c80f7b26",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -336,10 +339,11 @@
                     time: "15h00"
                 }
             },
-            {
-                name: "Coffee-break",
-                time: "16h00"
-            }, {
+            //{
+            //    name: "Coffee-break",
+            //    time: "16h00"
+            //}, 
+	    {
                 name: "Thiago Pontes",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/c13.12.155.155/1511003_10202709339471337_1685616813_n.jpg?oh=7513e7f6c3c5683301beca1ff6bed32a&oe=548724FB&__gda__=1417888592_08410c20049248aa9de278fe63c4c428",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -365,7 +369,7 @@
             }],
             '2014-10-16': [{
                 name: "Raphael Menezes",
-                photo: "https://scontent-a-lga.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10534518_10152144893827511_8821135898542613309_n.jpg",
+                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10534518_10152144893827511_8821135898542613309_n.jpg?oh=add28034c6aeaec726ac647106452b81&oe=54B6C0C2&__gda__=1422388992_ba524d889c3296e6113b75f4fcbec0e0",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                 company: "Petrobrás",
                 // link: {
@@ -405,10 +409,10 @@
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h45"
                 }
-            }, */{
+            }, {
                 name: "Coffe-break",
                 time: "10h30"
-            }, {
+            }, */{
                 name: "Cícero Santos",
                 //photo: "themes/yellow-swan/img/speaker.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -441,7 +445,7 @@
                 time: "12h30"
             }, {
                 name: "Heraldo Borges",
-                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c32.0.200.200/p200x200/1450310_10202142825552740_85057262_n.jpg",
+                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c51.0.320.320/p320x320/1450310_10202142825552740_85057262_n.jpg?oh=9285bb131e44deeaf7e97bdc9002a297&oe=54CA68F2&__gda__=1418170033_1f91368c589b165fc68e582f89e60a59",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                 company: "STI",
                 // link: {
@@ -470,7 +474,7 @@
             }, /*{
                 name: "Coffee-break",
                 time: "16h00"
-            }, */{
+            }, {
                 name: "Todos",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -498,7 +502,7 @@
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "17h30"
                 }
-            }],
+            }*/],
             '2014-10-17': [/*{
                 name: "Linus Torvalds",
                 photo: "themes/yellow-swan/img/speaker.jpg",
@@ -527,10 +531,12 @@
                     description: "Nessa palestra, abordamos como fundamentos de bancos de dados podem ser usados no processamento de dados científicos em sintonia com os Sistemas de Gerência de Workflows Científicos (SGWfC) em nuvens de computadores. Consideramos que essa combinação está no caminho crítico do apoio ao desenvolvimento de ciência em larga escala em nuvens computacionais. Mostraremos um panorama do estado da arte no uso da computação em nuvem para apoiar o desenvolvimento da ciência computacional. Apresentaremos as soluções principais nesse apoio em nuvens, a saber, Pegasus, Swift, Tavaxy e SciCumulus, destacando suas contribuições tanto em inovação de algoritmos e estratégias como de infraestrutura. Discutiremos as oportunidades de pesquisas em bancos de dados no contexto de nuvens computacionais quanto à gerência de dados e processos científicos, aos aspectos de distribuição de dados e atividades dos workflows, ao acompanhamento da execução de longa duração por parte do cientista e à gerência de dados de proveniência.",
                     time: "9h45"
                 }
-            }, {
-                name: "Coffe-break",
-                time: "10h30"
-            }, {
+            }, 
+	    //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //}, 
+            {
                 name: "Débora Muchaluat",
                 //photo: "themes/yellow-swan/img/speaker.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -563,7 +569,7 @@
                 time: "12h30"
             }, {
                 name: "Hugo Arraes Henley",
-                photo: "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/249549_3747423573320_2041088151_n.jpg",
+                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c18.18.230.230/249549_3747423573320_2041088151_n.jpg?oh=086ccb8793181fbbf83589f15ac1adc4&oe=54D0A7A8&__gda__=1422023714_f7b862595df77e97eebee5c6f3d91acc",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                 company: "STI",
                 // link: {
@@ -655,26 +661,6 @@
             name: "SEO Master",
             logo: "http://www.seomaster.com.br/wp-content/themes/seomaster/images/logo-seomaster.png",
             url: "http://www.seomaster.com.br/"
-        },{
-            name: "DZaine",
-            logo: "http://www.dzaine.net/img/logo-dzaine.png",
-            url: "http://www.dzaine.net/"
-        },{
-            name: "Cortex Intelligence",
-            logo: "http://www.cortex-intelligence.com/images/logo.png",
-            url: "http://www.cortex-intelligence.com/"
-        },{
-            name: "NVidia",
-            logo: "http://www.nvidia.com.br/content/includes/redesign2010/images/redesign10/nvidia_logo.png",
-            url: "http://www.nvidia.com.br/page/home.html"
-        },{
-            name: "Mozilla Brasil",
-            logo: "http://www.mozillabrasil.org.br/img/logo-mozilla-lt.png",
-            url: "http://www.mozillabrasil.org.br/"
-        },{
-            name: "IBM Brasil",
-            logo: "http://1.www.s81c.com/i/v17/t/ibm-logo.png",
-            url: "http://www.ibm.com/br/pt/"
         },{
             name: "Estante Virtual",
             logo: "http://static2.estantevirtual.com.br/imagens/logo_estante.png",
