@@ -22,7 +22,7 @@
         // If you don't want this, just remove the callToAction property.
         callToAction: {
             text: "Inscreva-se!",
-            link: "http://eventick.com.br"
+            link: "https://docs.google.com/forms/d/1KbGWL_tyZ1Akf00WZnPHLBB6kQz_Wg3YDifoNHf-9ks/viewform"
         },
 
         // "Fork me on GitHub", if you don't want this, just remove the forkButton property
