@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed57ee76-03a4-4ffe-9378-41ee15830643" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uff-dev-week.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/default.html.eco" afterPath="$PROJECT_DIR$/src/layouts/default.html.eco" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docpad.js" afterPath="$PROJECT_DIR$/docpad.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/header.html.eco" afterPath="$PROJECT_DIR$/src/partials/header.html.eco" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/nav.html.eco" afterPath="$PROJECT_DIR$/src/partials/nav.html.eco" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uff-dev-week.iws" />
@@ -48,8 +38,8 @@
       <file leaf-file-name="docpad.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docpad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6967742" vertical-offset="8502" max-vertical-offset="10590">
-              <caret line="610" column="22" selection-start-line="610" selection-start-column="22" selection-end-line="610" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.44623655" vertical-offset="8015" max-vertical-offset="10590">
+              <caret line="562" column="18" selection-start-line="559" selection-start-column="18" selection-end-line="562" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -351,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docpad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6967742" vertical-offset="8502" max-vertical-offset="10590">
-          <caret line="610" column="22" selection-start-line="610" selection-start-column="22" selection-end-line="610" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.44623655" vertical-offset="8015" max-vertical-offset="10590">
+          <caret line="562" column="18" selection-start-line="559" selection-start-column="18" selection-end-line="562" selection-end-column="18" />
           <folding />
         </state>
       </provider>
