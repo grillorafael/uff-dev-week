@@ -22,7 +22,7 @@
         // If you don't want this, just remove the callToAction property.
         callToAction: {
             text: "Inscreva-se!",
-            link: "http://eventick.com.br"
+            link: "https://docs.google.com/forms/d/1KbGWL_tyZ1Akf00WZnPHLBB6kQz_Wg3YDifoNHf-9ks/viewform"
         },
 
         // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -33,7 +33,7 @@
         // Site info
         site: {
             theme: "yellow-swan",
-            url: "http://braziljs.github.io/conf-boilerplate/"//,
+            url: "http://dacc.ic.uff.br/devweek/"//,
             //googleanalytics: "UA-33656081-1"
         },
 
@@ -64,10 +64,21 @@
         // The entire schedule
         schedule: {
             '2014-10-13': [
-            {
-                name: "À confirmar",
-                time: "9h00"
-            },
+                {
+                    name: "Leandro A. F. Fernandes",
+                    photo: "https://scontent-b-gru.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/388713_103631623090321_580321021_n.jpg?oh=e3ce0a1e6f458ccda43f86564a27a65f&oe=54C308EE",
+                    //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    company: "SBC",
+                    // link: {
+                    //     href: "http://github.com/billy95",
+                    //     text: "@billy95"
+                    // },
+                    presentation: {
+                        title: "SBC",
+                        //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                        time: "9h45"
+                    }
+                },
             {
                 name: "Gustavo Honorato",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c0.0.286.286/542641_435709456511800_47571938_n.jpg?oh=7cdbedc30e5870b22673f0d7b2b78dd2&oe=54C91385&__gda__=1418140616_b97c82ea69ac4607fa91909dc952c10e",
@@ -82,10 +93,12 @@
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h45"
                 }
-            }, {
-                name: "Coffe-break",
-                time: "10h30"
-            }, {
+            }, 
+	    //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //}, 
+            {
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -147,10 +160,10 @@
                     time: "15h00"
                 }
             },
-            {
-                name: "Coffe-break",
-                time: "10h30"
-            },
+            //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //},
             {
                 name: "Henrique Bastos",
                 photo: "http://en.gravatar.com/userimage/685245/2facffb27028a9a47863ce119dbbd1f1.png?size=200 ",
@@ -272,10 +285,11 @@
                     time: "9h45"
                 }
             },
+            //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //}, 
             {
-                name: "Coffe-break",
-                time: "10h30"
-            }, {
                 name: "Pedro Polisenso",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10629872_749020281828959_738727163159492986_n.jpg?oh=61a913c03aed1622882006294ff36b3a&oe=54C6D659&__gda__=1418868988_cccb1d5bf7056eeaff4a1498c80f7b26",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -336,10 +350,11 @@
                     time: "15h00"
                 }
             },
-            {
-                name: "Coffee-break",
-                time: "16h00"
-            }, {
+            //{
+            //    name: "Coffee-break",
+            //    time: "16h00"
+            //}, 
+	    {
                 name: "Thiago Pontes",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/c13.12.155.155/1511003_10202709339471337_1685616813_n.jpg?oh=7513e7f6c3c5683301beca1ff6bed32a&oe=548724FB&__gda__=1417888592_08410c20049248aa9de278fe63c4c428",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -355,8 +370,13 @@
                 }
             },{
                 name: "Esteban Clua",
-                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/v/t1.0-1/c0.26.320.320/p320x320/946250_545617322168823_423737512_n.jpg?oh=4927016b4b2a83f6c7e58117fb62d6d9&oe=54D13540&__gda__=1418761642_e77ae4544528b524459ea4add7a5f9d8",
-                company: "UFF",
+                bio: "Esteban Clua é professor da Universidade Federal Fluminense e coordenador geral do UFF Medialab, bolsista de produtividade DT 2 pelo CNPq e vice-diretor do Instituto de Computação da UFF. Possui graduação em Computação pela Universidade de São Paulo, mestrado em Informática pela PUC-Rio e doutorado em Informática pela PUC-Rio. Sua área de atuação está especialmente focada na área de Computação Gráfica tempo real, Video Games, Realidade Virtual, GPUs, visualização e simulação. É um dos fundadores do SBGames, pela SBC, Diretor de Academia da IGDA Rio e professor honrorário da NVIDIA. Desde 2010 é presidente da comissão especial de Jogos e entretenimento digital da SBC. Em 2007 recebeu o prêmio da ABRAGAMES como o maior contribuidor da academia para a indústria de jogos digitais no Brasil. É professor colaborador da Florida International University (EUA) desde 2008, pesquisador colaborador do grupo Camera Cultura, do Medialab MIT e pesquisador colaborador da Universidade Católica do Peru. Esteban é membro do comitê de programa das mais importanes conferencias na área de entretenimento digital. Em 2013 recebeu a nomeação de jovem cientista do nosso estado (Rio de Janeiro). Atualmente é coordenador do Centro de Excelência da NVIDIA no Brasil, que funciona no departamento de computação da Universidade Federal Fluminense e que ainda é o único centro com esta chancela na America Latina. Esteban é o diretor da Casa da Ciência Virtual, instalado na Universidade Federal Fluminense, com projetos para difusão da ciência para escolas mediante jogos e realidade virtual e é do conselho da Agencia de Inovação da mesma universidade",
+                photo: "http://dacc.ic.uff.br/fotos/foto_3.jpg",
+                company: "UFF - MediaLab",
+                link:{
+                    href: "www.ic.uff.br/~esteban",
+                    text: "Esteban Clua"
+                },
                 presentation: {
                     title: "Nvidia",
                     description: "",
@@ -365,7 +385,7 @@
             }],
             '2014-10-16': [{
                 name: "Raphael Menezes",
-                photo: "https://scontent-a-lga.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10534518_10152144893827511_8821135898542613309_n.jpg",
+                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10534518_10152144893827511_8821135898542613309_n.jpg?oh=add28034c6aeaec726ac647106452b81&oe=54B6C0C2&__gda__=1422388992_ba524d889c3296e6113b75f4fcbec0e0",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                 company: "Petrobrás",
                 // link: {
@@ -405,10 +425,10 @@
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h45"
                 }
-            }, */{
+            }, {
                 name: "Coffe-break",
                 time: "10h30"
-            }, {
+            }, */{
                 name: "Cícero Santos",
                 //photo: "themes/yellow-swan/img/speaker.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -441,7 +461,7 @@
                 time: "12h30"
             }, {
                 name: "Heraldo Borges",
-                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c32.0.200.200/p200x200/1450310_10202142825552740_85057262_n.jpg",
+                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c51.0.320.320/p320x320/1450310_10202142825552740_85057262_n.jpg?oh=9285bb131e44deeaf7e97bdc9002a297&oe=54CA68F2&__gda__=1418170033_1f91368c589b165fc68e582f89e60a59",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                 company: "STI",
                 // link: {
@@ -470,7 +490,7 @@
             }, /*{
                 name: "Coffee-break",
                 time: "16h00"
-            }, */{
+            }, {
                 name: "Todos",
                 photo: "themes/yellow-swan/img/speaker.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
@@ -498,22 +518,22 @@
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "17h30"
                 }
-            }],
-            '2014-10-17': [/*{
-                name: "Linus Torvalds",
-                photo: "themes/yellow-swan/img/speaker.jpg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Linux Foundation",
+            }*/],
+            '2014-10-17': [{
+                name: "Jonas Dias",
+                //photo: "themes/yellow-swan/img/speaker.jpg",
+                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                company: "EMC",
                 // link: {
                 //     href: "http://twitter.com/linus",
                 //     text: "@linus"
                 // },
                 presentation: {
-                    title: "Digging into a Linux Kernel",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Big Data",
+                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "9h00"
                 }
-            },*/ {
+            }, {
                 name: "Daniel Oliveira",
                 photo: "http://dacc.ic.uff.br/semanacademica/wp-content/themes/shaper_helix_ii/images/daniel.gif",
                 bio: "Daniel de Oliveira é professor do Instituto de Computação da Universidade Federal Fluminense (UFF) desde 2013. Recebeu o grau de Doutor em Ciências pela UFRJ em 2012. Seus interesses de pesquisa incluem bancos de dados, computação em nuvem, gerência de workflows científicos, paralelismo de dados, bioinformática e mineração de dados. Publicou mais de 50 artigos em periódicos indexados e em congressos nacionais e internacionais. É membro da ACM, IEEE e SBC. Vem publicando com frequência em eventos de prestígio internacional de computação em nuvem como o IEEE Cloud e o IEEE e-Science, além de ter recebido o prêmio de melhor artigo do 2nd International Workshop on Cloud Computing and Scientific Applications (CCSA) realizado em conjunto com o IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid 2012).",
@@ -527,21 +547,23 @@
                     description: "Nessa palestra, abordamos como fundamentos de bancos de dados podem ser usados no processamento de dados científicos em sintonia com os Sistemas de Gerência de Workflows Científicos (SGWfC) em nuvens de computadores. Consideramos que essa combinação está no caminho crítico do apoio ao desenvolvimento de ciência em larga escala em nuvens computacionais. Mostraremos um panorama do estado da arte no uso da computação em nuvem para apoiar o desenvolvimento da ciência computacional. Apresentaremos as soluções principais nesse apoio em nuvens, a saber, Pegasus, Swift, Tavaxy e SciCumulus, destacando suas contribuições tanto em inovação de algoritmos e estratégias como de infraestrutura. Discutiremos as oportunidades de pesquisas em bancos de dados no contexto de nuvens computacionais quanto à gerência de dados e processos científicos, aos aspectos de distribuição de dados e atividades dos workflows, ao acompanhamento da execução de longa duração por parte do cientista e à gerência de dados de proveniência.",
                     time: "9h45"
                 }
-            }, {
-                name: "Coffe-break",
-                time: "10h30"
-            }, {
+            }, 
+	    //{
+            //    name: "Coffe-break",
+            //    time: "10h30"
+            //}, 
+            {
                 name: "Débora Muchaluat",
-                //photo: "themes/yellow-swan/img/speaker.jpg",
+                photo: "http://www.faperj.br/img/repositorio/debora_peq.jpg",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "MidiaCom",
+                company: "Laboratório   MidiaCom",
                 // link: {
                 //     href: "http://twitter.com/littlechuck",
                 //     text: "@littlechuck"
                 // },
                 presentation: {
-                    title: "TV Digital",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Autoria de Documentos Multimídia para TV Digital",
+                    description: "Documentos multimídia estão cada vez mais presentes em nosso cotidiano. Informações em vídeo, áudio, imagens e animações permitem transmitir determinado conteúdo de forma dinâmica e atrair a atenção do usuário alvo. Com os sistemas de TV digital, além do conteúdo principal de vídeo e áudio, uma emissora pode transmitir aplicações interativas, oferecendo serviços diversos ao telespectador. Essas aplicações são compostas de objetos multimídia sincronizados temporal e espacialmente e podem ser representadas como documentos multimídia através de uma linguagem de autoria declarativa. No caso do Sistema Brasileiro de TV Digital (SBTVD), a linguagem padrão para especificação de aplicações declarativas é a linguagem NCL (Nested Context Language), baseada em XML. NCL utiliza um modelo de sincronização baseado em eventos e oferece bastante expressividade para autoria multimídia. Por outro lado, seu uso por quem não conhece tanto a linguagem não é trivial. Com o objetivo de facilitar a autoria de documentos multimídia em NCL, diversos esforços vêm sendo realizados pela comunidade acadêmica com o objetivo de oferecer novas facilidades para a linguagem, ferramentas de autoria gráfica e de validação de documentos. Um exemplo é a proposta de templates de composição, que especificam de maneira genérica a estrutura de sincronização espaço-temporal de um documento sem determinar qual o conteúdo multimídia a ser utilizado. Um mesmo template pode ser reusado em diferentes documentos com conteúdo distinto. O autor que usa um template não precisa conhecer como as relações de sincronização multimídia foram especificadas, o que facilita bastante a autoria. Outra facilidade para autoria multimídia é a oferta de editores gráficos, que abstraem os detalhes específicos de uma linguagem de autoria através de sua interface gráfica. Nesse caso, dependendo das funcionalidades e nível de abstração oferecidos pelo editor, o autor pode não precisar de nenhum conhecimento sobre a linguagem de autoria declarativa em XML. Seja considerando a autoria gráfica ou a autoria textual, uma ferramenta de validação é fundamental para verificar se a especificação de um documento multimídia segue realmente o desejo do autor. Tais ferramentas podem ser baseadas em modelos formais, que representam o documento multimídia e testam propriedades gerais ou específicas para verificar sua corretude. Esta palestra dará uma visão geral sobre autoria multimídia para o SBTVD e apresentará pesquisas que vêm sendo desenvolvidas na área no Laboratório MídiaCom da Universidade Federal Fluminense (UFF).",
                     time: "11h00"
                 }
             }, {
@@ -563,7 +585,7 @@
                 time: "12h30"
             }, {
                 name: "Hugo Arraes Henley",
-                photo: "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/249549_3747423573320_2041088151_n.jpg",
+                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c18.18.230.230/249549_3747423573320_2041088151_n.jpg?oh=086ccb8793181fbbf83589f15ac1adc4&oe=54D0A7A8&__gda__=1422023714_f7b862595df77e97eebee5c6f3d91acc",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                 company: "STI",
                 // link: {
@@ -575,21 +597,21 @@
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "14h00"
                 }
-            }, /*{
-                name: "Steve Wozniak",
-                photo: "themes/yellow-swan/img/speaker.jpg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Apple, Inc.",
-                link: {
+            }, {
+                name: "Fábio Pimentel",
+                photo: "http://dacc.ic.uff.br/semanacademica/wp-content/themes/shaper_helix_ii/images/fabio-pimentel.jpg",
+                bio: "Bacharelando em Ciências da Computação pela Universidade Federal do Rio de Janeiro, trabalha como instrutor e desenvolvedor pela Caelum. Desenvolve principalmente sistemas web com Java e Ruby. Atualmente foca seus estudos no desenvolvimento mobile.",
+                company: "Caelum",
+                /*link: {
                     href: "http://twitter.com/woz",
                     text: "@woz"
-                },
+                },*/
                 presentation: {
-                    title: "Why do I prefer Android over iPhone",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Swift",
+                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "15h00"
                 }
-            }, {
+            }, /*{
                 name: "Coffee-break",
                 time: "16h00"
             }, {
@@ -655,26 +677,6 @@
             name: "SEO Master",
             logo: "http://www.seomaster.com.br/wp-content/themes/seomaster/images/logo-seomaster.png",
             url: "http://www.seomaster.com.br/"
-        },{
-            name: "DZaine",
-            logo: "http://www.dzaine.net/img/logo-dzaine.png",
-            url: "http://www.dzaine.net/"
-        },{
-            name: "Cortex Intelligence",
-            logo: "http://www.cortex-intelligence.com/images/logo.png",
-            url: "http://www.cortex-intelligence.com/"
-        },{
-            name: "NVidia",
-            logo: "http://www.nvidia.com.br/content/includes/redesign2010/images/redesign10/nvidia_logo.png",
-            url: "http://www.nvidia.com.br/page/home.html"
-        },{
-            name: "Mozilla Brasil",
-            logo: "http://www.mozillabrasil.org.br/img/logo-mozilla-lt.png",
-            url: "http://www.mozillabrasil.org.br/"
-        },{
-            name: "IBM Brasil",
-            logo: "http://1.www.s81c.com/i/v17/t/ibm-logo.png",
-            url: "http://www.ibm.com/br/pt/"
         },{
             name: "Estante Virtual",
             logo: "http://static2.estantevirtual.com.br/imagens/logo_estante.png",
