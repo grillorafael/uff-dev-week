@@ -8,7 +8,7 @@
         // Conference info
         conf: {
             name: "UFF - DevWeek",
-            description: "",
+            description: "UFF Dev Week é um evento que ocorre todos os anos na Universidade Federal Fluminense (UFF) sobre novas tecnologias na área de TI.",
             date: "13 a 17 de Outubro",
             // If your event is free, just comment this line
             //   price: "$100",
