@@ -383,21 +383,23 @@
                     time: "17h30"
                 }
             }],
-            '2014-10-16': [{
-                name: "Raphael Menezes",
-                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10534518_10152144893827511_8821135898542613309_n.jpg?oh=add28034c6aeaec726ac647106452b81&oe=54B6C0C2&__gda__=1422388992_ba524d889c3296e6113b75f4fcbec0e0",
+            '2014-10-16': [
+	    //{
+            //    name: "Raphael Menezes",
+            //    photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.0.320.320/p320x320/10534518_10152144893827511_8821135898542613309_n.jpg?oh=add28034c6aeaec726ac647106452b81&oe=54B6C0C2&__gda__=1422388992_ba524d889c3296e6113b75f4fcbec0e0",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Petrobrás",
+            //    company: "Petrobrás",
                 // link: {
                 //     href: "http://twitter.com/linus",
                 //     text: "@linus"
                 // },
-                presentation: {
-                    title: "Gestão de perfomance de aplicações java em ambiente de produção e experiência do usuário",
+            //    presentation: {
+            //        title: "Gestão de perfomance de aplicações java em ambiente de produção e experiência do usuário",
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                    time: "9h00"
-                }
-            },{
+            //        time: "9h00"
+            //   }
+            //},
+	    {
                 name: "André Garzia",
                 photo: "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1779194_10153074804907195_1512928922_n.jpg?oh=798464a3f8710e8b4eeff7f231f86789&oe=54C9744F&__gda__=1423000722_8af195e38f02ac93c5240fb87228352f",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
