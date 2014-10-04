@@ -67,15 +67,15 @@
                 {
                     name: "Leandro A. F. Fernandes",
                     photo: "https://scontent-b-gru.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/388713_103631623090321_580321021_n.jpg?oh=e3ce0a1e6f458ccda43f86564a27a65f&oe=54C308EE",
-                    //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    bio: "Leandro A. F. Fernandes é Bacharel em Ciência da Computação pela Fundação Universidade Regional de Blumenau (FURB, 2002), Mestre em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS, 2006) e Doutor em Ciência da Computação pela UFRGS (2010). Realizou estágio pós-doutoral na UFRGS entre 2010 e 2011. Atualmente é Professor Adjunto no Departamento de Ciência da Computação da Universidade Federal Fluminense (DCC-UFF). É membro da Sociedade Brasileira de Computação (SBC) desde a graduação e membro da Association for Computing Machinery (ACM). É o atual Representante Institucional da SBC na UFF.",
                     company: "SBC",
                     // link: {
                     //     href: "http://github.com/billy95",
                     //     text: "@billy95"
                     // },
                     presentation: {
-                        title: "SBC",
-                        //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                        title: "SBC para estudantes",
+                        description: "A Semana da SBC ocorre junto com as semanas acadêmicas das instituições com representação institucional, incluse a UFF, e tem como objetivo viabilizar um espaço onde todas as regionais desta Sociedade divulguem as ações da SBC em prol da comunidade. Com uma forte divulgação sincronizada em todo o Brasil, busca-se criar uma consciência, principalmente entre os estudantes, da dimensão alcançada pela SBC referente às diversas atividades que esta se propõe dentro do âmbito científico, político, educativo e social para o desenvolvimento do Brasil.",
                         time: "9h45"
                     }
                 },
@@ -147,16 +147,16 @@
             },
             {
                 name: "Wanderson Trindade",
-                photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c0.11.320.320/p320x320/10660281_954411077907533_4972646307695368811_n.jpg?oh=94d0aae0be5758706ee3b572cb998b43&oe=54D04DD0&__gda__=1422810007_469b6eb33d08a04a784ba112efac2b88",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                photo: "http://dacc.ic.uff.br/fotos/foto_wanderson.jpg",
+                bio: "Wanderson Trindade empreendedor, pesquisador e curioso na área de tecnologia.Representante do Projeto Universitário Acima da Média, no estado do Rio de Janeiro.Graduando em Sistemas de Informação da Universidade Federal Fluminense. Participou de Hackathons pelo Brasil a fora. Veterano convicto do maior evento de tecnologia e inovação do Brasil a Campus Party. Consultor Dell Experts e Google Partners. Participante de projetos de pesquisa na UFF e de startups no Brasil.Cofundador da startup WT parceira do Movimento Arte Expressa.",
                 company: "UAM",
                 // link: {
                 //     href: "http://twitter.com/zuck",
                 //     text: "@zuck"
                 // },
                 presentation: {
-                    title: "Universidade X Mercado: Dilemas que todo universitário da área de TI passa",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Universidade X Mercado: Dilemas que todo universitário da área de TI passa. Como vencê-los e levar uma vida legal?",
+                    description: "Como eterno estudante, na área de tecnologia. Passei este dilema, desde o primeiro dia que começaram as minha aulas na universidade. Por meio, de participações em n eventos e workshops tanto no âmbito acadêmico e de mercado. Desenvolvi técnicas e conheci iniciativas que me ajudaram a superá-lo.Nesta palestra serão apresentadas. E você verá que não é um bicho de sete cabeça.",
                     time: "15h00"
                 }
             },
