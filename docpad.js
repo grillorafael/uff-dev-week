@@ -112,20 +112,20 @@
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "11h00"
                 }
-            }, {
-                name: "Pedro Marins",
-                photo: "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/1482816_631420226922650_435650234_n.jpg?oh=eaa987b3badd06e0e336487fe8bdd4ae&oe=54865666&__gda__=1418249701_f1652e063d3a8c4d206e18cda9dcd6ab",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "Apple, Inc.",
-                // link: {
-                //     href: "http://github.com/stevie",
-                //     text: "@stevie"
-                // },
-                presentation: {
-                    title: "Ganhando dinheiro de pijama",
-                    description: "Uma breve história de como troquei 3h diárias dentro de ônibus pelo home office e como trabalhar remoto com liberdade. Um passo a passo do que fiz para conquistar a minha independência profissional.",
-                    time: "11h45"
-                }
+//            }, {
+//                name: "Pedro Marins",
+//                photo: "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/1482816_631420226922650_435650234_n.jpg?oh=eaa987b3badd06e0e336487fe8bdd4ae&oe=54865666&__gda__=1418249701_f1652e063d3a8c4d206e18cda9dcd6ab",
+//                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+//                //company: "Apple, Inc.",
+//                // link: {
+//                //     href: "http://github.com/stevie",
+//                //     text: "@stevie"
+//                // },
+//                presentation: {
+//                    title: "Ganhando dinheiro de pijama",
+//                    description: "Uma breve história de como troquei 3h diárias dentro de ônibus pelo home office e como trabalhar remoto com liberdade. Um passo a passo do que fiz para conquistar a minha independência profissional.",
+//                    time: "11h45"
+//                }
             }, {
                 name: "Almoço",
                 time: "12h30"
@@ -179,21 +179,21 @@
                     time: "16h30"
                 }
             },
-            {
-                name: "Marcelo Jachelli",
-                photo: "http://dacc.ic.uff.br/semanacademica/wp-content/themes/shaper_helix_ii/images/marcelojachelli.jpg",
-                bio: "Analista de sistemas formado pela PUC-Rio com MBA em Gestão de projetos pelo IBMEC. Possui mais de 10 anos de experiência em gerenciamento de projetos de TI com atuação em empresas de diferentes segmentos como: Petrobras, Oi, Citibank, Bradesco Seguros, Aracruz, entre outras. Atualmente é Gerente de projetos do ADDLabs (laboratório de Documentação Ativa e Design Inteligente do Instituto de Computação da Universidade Federal Fluminense – Especializado em IHC e inteligência artificial).",
-                company: "ADDLABS",
-                /*link: {
-                    href: "https://twitter.com/henriquebastos    ",
-                    text: "@henriquebastos"
-                },*/
-                presentation: {
-                    title: "Gerência de Projetos",
-                    description: "Serão apresentados os principais conceitos do gerenciamento de projetos, as áreas de conhecimento, estratégias de gerenciamento, características da carreira, habilidades necessárias e desafios do profissional de gerenciamento de projetos.",
-                    time: "17h30"
-                }
-            },
+                {
+                    name: "Pedro Marins",
+                    photo: "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/1482816_631420226922650_435650234_n.jpg?oh=eaa987b3badd06e0e336487fe8bdd4ae&oe=54865666&__gda__=1418249701_f1652e063d3a8c4d206e18cda9dcd6ab",
+                    //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    //company: "Apple, Inc.",
+                    // link: {
+                    //     href: "http://github.com/stevie",
+                    //     text: "@stevie"
+                    // },
+                    presentation: {
+                        title: "Ganhando dinheiro de pijama",
+                        description: "Uma breve história de como troquei 3h diárias dentro de ônibus pelo home office e como trabalhar remoto com liberdade. Um passo a passo do que fiz para conquistar a minha independência profissional.",
+                        time: "17h30"
+                    }
+                },
             /*, {
                 name: "Steve Wozniak",
                 photo: "themes/yellow-swan/img/speaker.jpg",
@@ -506,21 +506,22 @@
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "16h30"
                 }
-            },{
-                name: "Todos",
-                photo: "themes/yellow-swan/img/speaker.jpg",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                //company: "Facebook",
-                // link: {
-                //     href: "http://twitter.com/zuck",
-                //     text: "@zuck"
-                // },
+            },*/
+                 {
+                 name: "Marcelo Jachelli",
+                 photo: "http://dacc.ic.uff.br/semanacademica/wp-content/themes/shaper_helix_ii/images/marcelojachelli.jpg",
+                 bio: "Analista de sistemas formado pela PUC-Rio com MBA em Gestão de projetos pelo IBMEC. Possui mais de 10 anos de experiência em gerenciamento de projetos de TI com atuação em empresas de diferentes segmentos como: Petrobras, Oi, Citibank, Bradesco Seguros, Aracruz, entre outras. Atualmente é Gerente de projetos do ADDLabs (laboratório de Documentação Ativa e Design Inteligente do Instituto de Computação da Universidade Federal Fluminense – Especializado em IHC e inteligência artificial).",
+                 company: "ADDLABS",
+                 /*link: {
+                 href: "https://twitter.com/henriquebastos    ",
+                 text: "@henriquebastos"
+                 },*/
                 presentation: {
-                    title: "CompMusc",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Gerência de Projetos",
+                    description: "Serão apresentados os principais conceitos do gerenciamento de projetos, as áreas de conhecimento, estratégias de gerenciamento, características da carreira, habilidades necessárias e desafios do profissional de gerenciamento de projetos.",
                     time: "17h30"
                 }
-            }*/],
+            }],
             '2014-10-17': [{
                 name: "Jonas Dias",
                 //photo: "themes/yellow-swan/img/speaker.jpg",
