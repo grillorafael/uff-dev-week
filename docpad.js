@@ -102,14 +102,14 @@
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Dzaine",
+                company: "Moca",
                 // link: {
                 //     href: "http://twitter.com/littlechuck",
                 //     text: "@littlechuck"
                 // },
                 presentation: {
-                    title: "UX",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "UX relacionado ao comportamento sociocultural",
+                    description: "O estudo da experiência que um usuário causa na aplicação é de grande valia para a evolução dela, o contexto social, cultural, econômico e político também geram variações de uso, a idéia é expôr a vocês como o usuário pode ser lido e compreendido de uma forma mais aprofundada.",
                     time: "11h00"
                 }
 //            }, {
@@ -245,14 +245,14 @@
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Dzaine",
+                company: "Moca",
                 // link: {
                 //     href: "http://twitter.com/linus",
                 //     text: "@linus"
                 // },
                 presentation: {
-                    title: "M-Commerce",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "m-commerce para o perfil da américa latina",
+                    description: "O mobile commerce é a próxima evolução do e-commerce e já estamos presenciando-a. Como a venda de dispositivos móveis cresceu 6x no ultimo ano, precisamos entender melhor como o nosso público reage ao contexto onde as aplicações deve ser re-planejadas para a condição social latino americana.",
                     time: "9h00"
                 }
             }, /*{
@@ -274,15 +274,15 @@
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Dzaine",
+                company: "Moca",
                 // link: {
                 //     href: "http://twitter.com/linus",
                 //     text: "@linus"
                 // },
                 presentation: {
-                    title: "M-Commerce",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                    time: "9h45"
+                    title: "m-commerce para o perfil da américa latina",
+                    description: "O mobile commerce é a próxima evolução do e-commerce e já estamos presenciando-a. Como a venda de dispositivos móveis cresceu 6x no ultimo ano, precisamos entender melhor como o nosso público reage ao contexto onde as aplicações deve ser re-planejadas para a condição social latino americana.",
+		    time: "9h45"
                 }
             },
             //{
