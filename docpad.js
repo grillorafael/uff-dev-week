@@ -21,8 +21,8 @@
         // The Call To Action button at the header,
         // If you don't want this, just remove the callToAction property.
         callToAction: {
-            text: "Inscreva-se!",
-            link: "https://docs.google.com/forms/d/1KbGWL_tyZ1Akf00WZnPHLBB6kQz_Wg3YDifoNHf-9ks/viewform"
+            text: "Inscrições Encerradas",
+            link: "#"
         },
 
         // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -102,14 +102,14 @@
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Dzaine",
+                company: "Moca",
                 // link: {
                 //     href: "http://twitter.com/littlechuck",
                 //     text: "@littlechuck"
                 // },
                 presentation: {
-                    title: "UX",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "UX relacionado ao comportamento sociocultural",
+                    description: "O estudo da experiência que um usuário causa na aplicação é de grande valia para a evolução dela, o contexto social, cultural, econômico e político também geram variações de uso, a idéia é expôr a vocês como o usuário pode ser lido e compreendido de uma forma mais aprofundada.",
                     time: "11h00"
                 }
 //            }, {
@@ -245,14 +245,14 @@
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Dzaine",
+                company: "Moca",
                 // link: {
                 //     href: "http://twitter.com/linus",
                 //     text: "@linus"
                 // },
                 presentation: {
-                    title: "M-Commerce",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "m-commerce para o perfil da américa latina",
+                    description: "O mobile commerce é a próxima evolução do e-commerce e já estamos presenciando-a. Como a venda de dispositivos móveis cresceu 6x no ultimo ano, precisamos entender melhor como o nosso público reage ao contexto onde as aplicações deve ser re-planejadas para a condição social latino americana.",
                     time: "9h00"
                 }
             }, /*{
@@ -274,15 +274,15 @@
                 name: "Lázaro Alvarenga",
                 photo: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/1538774_746261605441823_6958272133022325098_n.jpg?oh=f3df36bfdb0b8a68455797b216a416eb&oe=5484600B&__gda__=1419319209_1d7a653396c99baee70dcd9153963883",
                 //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                company: "Dzaine",
+                company: "Moca",
                 // link: {
                 //     href: "http://twitter.com/linus",
                 //     text: "@linus"
                 // },
                 presentation: {
-                    title: "M-Commerce",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                    time: "9h45"
+                    title: "m-commerce para o perfil da américa latina",
+                    description: "O mobile commerce é a próxima evolução do e-commerce e já estamos presenciando-a. Como a venda de dispositivos móveis cresceu 6x no ultimo ano, precisamos entender melhor como o nosso público reage ao contexto onde as aplicações deve ser re-planejadas para a condição social latino americana.",
+		    time: "9h45"
                 }
             },
             //{
@@ -402,7 +402,7 @@
 	    {
                 name: "André Garzia",
                 photo: "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/1779194_10153074804907195_1512928922_n.jpg?oh=798464a3f8710e8b4eeff7f231f86789&oe=54C9744F&__gda__=1423000722_8af195e38f02ac93c5240fb87228352f",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                bio: "Andre Garzia é de Niterói e trabalha com desenvolvimento de apps mobile e front-end. Como Representante Mozilla ele faz parte do Firefox OS Launch Team e atua no fomento ao desenvolvimento de open web apps. Recentemente lançou seu segundo livro sobre Firefox OS chamado 'Building Games For Firefox OS'. Quando sobra tempo prefere uma cuba libre e quadrinhos.",
                 company: "Mozilla Brasil",
                 // link: {
                 //     href: "http://twitter.com/linus",
@@ -410,7 +410,7 @@
                 // },
                 presentation: {
                     title: "Firefox OS",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    description: "Vamos conhecer o Firefox OS do ponto de vista de desenvolvimento e mostrar como Open Web Apps são a melhor opção para a criação de software multi plataforma.",
                     time: "9h45"
                 }
             }, /*{
@@ -432,16 +432,16 @@
                 time: "10h30"
             }, */{
                 name: "Cícero Santos",
-                //photo: "themes/yellow-swan/img/speaker.jpg",
-                //bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                photo: "http://dacc.ic.uff.br/fotos/cicero_tjwrs.png",
+                bio: "Cícero Nogueira dos Santos é Pesquisador na IBM Research - Brazil, onde atua na aplicação de aprendizado de máquina e mineração de dados para resolver problemas da áreas de processamento de linguagem natural e descoberta e exploração inteligente de recursos naturais . Antes de ingressar na IBM Research, Cícero foi professor-pesquisador da Universidade de Fortaleza (UNIFOR), tendo orientado alunos dos programas de graduação e pós-graduação em ciência da computação. Possui Doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro – PUC-Rio (2009), e Mestrado em Sistemas e Computação pelo Instituto Militar de Engenharia – IME (2005). Recentemente a sua pesquisa está focada no desenvolvimento de métodos de Deep Learning para processamento de linguagem natural.",
                 company: "IBM",
-                // link: {
-                //     href: "http://twitter.com/littlechuck",
-                //     text: "@littlechuck"
-                // },
+                link: {
+                     href: "http://researcher.watson.ibm.com/researcher/view.php?person=br-cicerons ",
+                     //text: "@littlechuck"
+                },
                 presentation: {
                     title: "Processamento de Linguagem Natural com Deep Learning",
-                    //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    description: "Deep Learning tornou-se uma área de pesquisa de extrama influência nos últimos anos. Este tipo de abordagem de aprendizado de máquina tem produzido resultados estado-da-arte para muitos problemas em diferentes áreas, e possui a característica impactante de não utilizar atributos manualmente contruídos. Essa característica tem feito com que Deep Learning tenha recebido recentemente muita atenção tanto da academia quanto da indústria. Nesta palestra, apresentarei uma breve introdução a Deep Learning e detalharei algumas das suas aplicações recentes para Processamento de Linguagel Natural (PLN). Apresentarei resultados do meu trabalho de pesquisa recente, que tem sido focado no desenvolvimento de Redes Neurais Convolucionais Profundas para analisar texto em vários níveis, do nível de charactere ao nível da frase. Usando as redes propostas é possível construir analisadores morfossintáticos e classificadores de sentimento sem a necessidade de nenhum atributo manualmente definido.",
                     time: "11h00"
                 }
             }, {
@@ -596,7 +596,7 @@
                 //     text: "@zuck"
                 // },
                 presentation: {
-                    title: "À Confirmar",
+                    title: "Deploying Docker Containers",
                     //description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "14h00"
                 }
